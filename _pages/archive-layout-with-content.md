@@ -1,10 +1,8 @@
 ---
-title: "个人简介t"
+title: "个人简介"
 layout: archive
 permalink: /archive-layout-with-content/
 ---
-# 个人简介
-
 ## 基本信息
 
 **姓名：** 董凯志

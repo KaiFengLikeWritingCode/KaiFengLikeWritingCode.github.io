@@ -1,39 +1,54 @@
 ---
 permalink: /terms/
-title: "Terms and Privacy Policy"
-modified: 2016-06-06
+title: "服务条款与隐私政策"
+modified: 2025-06-19
 ---
 
 {% include base_path %}
 {% include toc %}
+## 隐私政策
 
-## Privacy Policy
+我们非常重视访客隐私保护。以下内容说明了本站收集的个人信息类型及其使用方式。
 
-The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
+首先，未经您明确同意，我们绝不会向任何第三方披露或出售您的电子邮件地址或其他个人信息。
 
-First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
+### 日志文件
 
-### Log Files
+与大多数网站一样，本站会使用日志文件来分析访问来源与流量模式。日志文件中记录的信息包括：
 
-Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include:
+- 访问者的 IP 地址
+- 浏览器类型及版本
+- 互联网服务提供商（ISP）
+- 访问时间戳
+- 引荐和退出页面
+- 点击次数
 
-* Internet Protocol addresses (IP)
-* Types of browser
-* Internet Service Provider (ISP)
-* Date and time stamp
-* Referring and exit pages
-* Number of clicks
+上述信息仅用于统计分析，不会与任何可识别个人身份的数据关联。
 
-All of this information is not linked to anything that is personally identifiable.
+### Cookie 与网络信标
 
-### Cookies and Web Beacons
+当您访问本站时，可能会在您的设备上存储“Cookie”以提升体验，例如在您留言后，帮助您在下次访问时自动登录。本站并未集成 Disqus 评论系统或第三方广告，因此仅使用以下 Cookie：
 
-When you visit this site "convenience" cookies are stored on your computer when you submit a comment to help you log in faster to [Disqus](http://disqus.com) the next time you leave a comment.
+- 会话 Cookie：用于维持登录状态
+- 偏好设置 Cookie：保存页面布局和主题偏好
 
-Third-party advertisers may also place and read cookies on your browser and/or use web beacons to collect information. This site has no access or control over these cookies. You should review the respective privacy policies on any and all third-party ad servers for more information regarding their practices and how to opt-out.
-
-If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
+如果您希望禁用 Cookie，可在浏览器设置中进行管理。请参考各大浏览器官方网站上的说明以了解具体操作方法。
 
 #### Google Analytics
 
-Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read [Google Analytics Privacy Policy](http://www.google.com/analytics/learn/privacy.html).
+本站使用 Google Analytics 统计访问数据，以帮助了解访客对内容的互动情况。Google Analytics 通过 Cookie 和网络信标生成汇总报告，不会识别任何个人身份信息。详情请参阅 [Google Analytics 隐私政策](http://www.google.com/analytics/learn/privacy.html)。
+## 服务条款
+
+1. **适用范围**
+    本网站内容包括个人简历、科研成果、项目经验和技术分享等。访客使用本网站即表示同意遵守相关法律法规及本站规定。
+2. **知识产权**
+    除另有说明外，本站所有文字、图片、代码等内容均为作者（董凯志）原创或获授权，受著作权法保护。未经许可，不得以任何形式转载、摘编或用于商业用途。
+3. **免责声明**
+   - 本网站所展示的研究成果和项目经验仅供参考，不构成任何投资、工程实施或学术引用建议。
+   - 如因不可抗力或第三方原因导致网站服务中断或数据丢失，本站不承担任何责任。
+   - 如您对本站内容或功能有任何疑问，请通过下方联系方式与我们取得联系。
+4. **联系方式**
+   - **电子邮箱：** [18363666985@163.com](mailto:dongkaizhi@example.com)
+   - **电话：** 183-6366-6985
+5. **条款更新**
+    本隐私政策和服务条款可能会不定期更新。建议您定期访问本页，以了解最新版本。如有重大变更，将在网站首页或通过邮件公告提醒。
