@@ -106,7 +106,7 @@ Email: dongkaizhi@example.com<br/>
 Phone: 183-6366-6985
 </address>
 
-{% include base\_path %}
+{% include base_path %}
 {% for post in site.pages %}
 {% include archive-single.html %}
 {% endfor %}
