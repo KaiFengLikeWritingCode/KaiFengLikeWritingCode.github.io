@@ -24,7 +24,7 @@ citation: '董凯志, 董博伟, & 陈英杰. (2024). “基于混合整数规�
 
    - **目标函数**：最大化年度总利润
 
-     max⁡∑i,j,t,ρ(βi,j,ρ xi,j,tρ×γj,ρ−αi,j,ρ xi,j,tρ)  \max \sum_{i,j,t,\rho} \bigl(\beta_{i,j,\rho}\,x_{i,j,t}^{\rho}\times\gamma_{j,\rho} - \alpha_{i,j,\rho}\,x_{i,j,t}^{\rho}\bigr)
+     $$ max⁡∑i,j,t,ρ(βi,j,ρ xi,j,tρ×γj,ρ−αi,j,ρ xi,j,tρ)  \max \sum_{i,j,t,\rho} \bigl(\beta_{i,j,\rho}\,x_{i,j,t}^{\rho}\times\gamma_{j,\rho} - \alpha_{i,j,\rho}\,x_{i,j,t}^{\rho}\bigr) $$
 
      并分别针对“过量滞销”与“过量降价”两种销售策略建立对应目标表达式。
 
@@ -40,13 +40,13 @@ citation: '董凯志, 董博伟, & 陈英杰. (2024). “基于混合整数规�
    - **主成分分析 (PCA)** 降维提取气候灾害与病虫害关键因子；
    - **MCMC** 模拟 2024–2030 年的随机环境，生成作物产量、成本与销量波动场景；
    - **双目标规划**：在原利润目标上增加“年度种植风险”最小化目标，形成
-      max⁡Λprofit,  min⁡Orisk\max\Lambda_{\text{profit}},\;\min O_{\text{risk}}，使用**NSGA-II** 进行非支配排序和拥挤距离筛选。
+      $$ max⁡Λprofit,  min⁡Orisk\max\Lambda_{\text{profit}},\;\min O_{\text{risk}}，使用**NSGA-II** 进行非支配排序和拥挤距离筛选。 $$
 
 3. **替代—互补与动态权重模型 (Problem 3)**
 
-   - 以 Spearman 相关系数定义作物间**替代性** Subρ1,ρ2Sub_{\rho_1,\rho_2} 与**互补性** Compρ1,ρ2Comp_{\rho_1,\rho_2}；
-   - 构建**动态权重** ω1(t),ω2(t)\omega_1(t),\omega_2(t)，根据市场预期与气候指标实时调整利润与风险权重；
-   - 在多目标函数中加入 ∑Sub,∑Comp\sum Sub,\sum Comp 项，进一步提升整体收益与稳定性。
+   - 以 Spearman 相关系数定义作物间**替代性** \\( Subρ1,ρ2Sub_{\rho_1,\rho_2}\\) 与**互补性** \\( Compρ1,ρ2Comp_{\rho_1,\rho_2})；
+   - 构建**动态权重** \\(ω1(t),ω2(t)\omega_1(t),\omega_2(t)\\)，根据市场预期与气候指标实时调整利润与风险权重；
+   - 在多目标函数中加入 \\(∑Sub,∑Comp\sum Sub,\sum Comp \\)项，进一步提升整体收益与稳定性。
 
 4. **求解算法**
 
