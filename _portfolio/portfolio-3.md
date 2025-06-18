@@ -1,7 +1,6 @@
 ---
 title: "教务系统项目开发"
-excerpt: "基于SpringBoot3"
-teaser: "./images/演示demo.gif"
+excerpt: "基于SpringBoot3<br/><img src='./images/演示demo.gif'>"
 collection: portfolio
 ---
 
