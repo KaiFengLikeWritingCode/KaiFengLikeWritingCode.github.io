@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "董凯志的学术主页"
 author_profile: true
 redirect_from: 
   - /about/
@@ -14,8 +14,8 @@ redirect_from:
 - **姓名**：董凯志
 - **院校**：中国海洋大学 计算机科学与技术专业（2021–2025）
 - **研究方向**：计算机视觉、图像处理、多模态融合、智能路径规划
-- **联系方式**：[dongkaizhi@example.com](mailto:dongkaizhi@example.com) ｜ 183-6366-6985
-- **GitHub**：[github.com/your-github](https://github.com/your-github)
+- **联系方式**：[18363666985@163.com](mailto:dongkaizhi@example.com) ｜ 183-6366-6985
+- **GitHub**：[github.com/your-github](https://github.com/KaiFengLikeWritingCode)
 - **英语水平**：CET-6 (507分)
 - **身份**：中共党员
 
@@ -24,17 +24,17 @@ redirect_from:
 ### 研究论文
 
 - **UWIS: Underwater Image Stitching Dataset and a Dynamic Pipeline for Feature Enhancement and Stitching**
-   *第一作者, IEEE OCEANS 2023*
+   *第一作者, IEEE OCEANS 2025*
 - **MSGFusion: Multimodal Scene Graph–Guided Infrared and Visible Image Fusion**
-   *第二作者, 投稿 IEEE TMM 2024*
+   *第二作者, 投稿 IEEE TMM*
 - **蔬菜类商品补货及定价策略分析预测模型**
    *全国大学生数模省级二等奖 2023*
 - **基于混合整数规划的农作物最优种植策略研究**
    *全国大学生数模国赛省二等奖 2024*
 - **揭示网球比赛中“势头”现象的潜在模式**
-   *MCM 美赛 M 奖 2024*
+   *MCM 美赛 S 奖 2024*
 - **区分强弱项目的奥运奖牌榜预测**
-   *MCM 美赛优胜奖 2025*
+   *MCM 美赛 M 奖 2025*
 
 ### 工程项目
 
