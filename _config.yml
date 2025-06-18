@@ -9,13 +9,16 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Dong Kaizhi"
+title                    : "Dong Kaizhi"  # 网站主标题，可写成“Dong Kaizhi | Personal Website”
 title_separator          : "-"
 name                     : &name "Dong Kaizhi"
-description              : &description "personal description"
-url                      : https://kaifenglikewritingcode.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+description              : &description "中国海洋大学计算机科学与技术专业在读."  # 简要介绍
+
+url                      : "https://KaiFengLikeWritingCode.github.io"  # 网址，注意用户名拼写一致
+baseurl                  : ""  # 保持空即可
 repository               : "KaiFengLikeWritingCode/KaiFengLikeWritingCode.github.io"
+
+
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,12 +27,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Dong Kaizhi"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  pronouns         : "he/him"     # example: "she/her"  
+  bio              : "中国海洋大学计算机科学与技术专业在读"
+  location         : "中国海洋大学"
+  employer         : "中国海洋大学"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "18363666985@163.com" 
 
   # Academic websites
   academia         : # URL
@@ -296,7 +299,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
