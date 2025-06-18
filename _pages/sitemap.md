@@ -7,43 +7,46 @@ author_profile: true
 
 {% include base_path %}
 
-以下列出本站的所有页面和条目，方便访客快速导航。
+以下按照主导航顺序列出网站内容，方便访客快速导航。
 
-{% comment %}
-1. 先取出所有主导航的 URL 列表
-{% endcomment %}
-{% assign nav_urls = site.data.navigation.main | map: "url" %}
+{% assign nav = site.data.navigation.main %}
 
+{% for item in nav %}
+  {% assign url = item.url %}
+  {% assign label = url | remove_first: "/" | remove: "/" %}
+  <h2>{{ item.title }}</h2>
 
-<h2>Pages</h2>
-{% comment %}
-2. 遍历所有页面，只渲染那些 URL 在主导航里的页面
-{% endcomment %}
-{% for page in site.pages %}
-  {% if nav_urls contains page.url %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+  {% comment %}
+  如果是“Blog Posts”页（假设它的 URL 是 /year-archive/）
+  {% endcomment %}
+  {% if label == "year-archive" %}
+    {% for post in site.posts %}
+      {% include archive-single.html %}
+    {% endfor %}
 
+  {% else %}
+    {% comment %}
+    检查它是不是一个 Collection，如果是，就渲染该集合下的所有文档
+    {% endcomment %}
+    {% assign rendered = false %}
+    {% for collection in site.collections %}
+      {% if collection.label == label and collection.output %}
+        {% assign rendered = true %}
+        {% for doc in collection.docs %}
+          {% include archive-single.html %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
 
-<h2>Posts</h2>
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-
-{% comment %}
-3. 遍历所有 collection（除了 posts），
-   只有当其 archive URL 在主导航里才会渲染
-{% endcomment %}
-{% for collection in site.collections %}
-  {% if collection.label != "posts" %}
-    {% capture archive_url %}\/{{ collection.label }}\/{% endcapture %}
-    {% if nav_urls contains archive_url %}
-      <h2>{{ collection.label | capitalize }}</h2>
-      {% for doc in collection.docs %}
-        {% include archive-single.html %}
-      {% endfor %}
-    {% endif %}
+    {% comment %}
+    如果它不是 Collection，再尝试把它当普通页面渲染
+    {% endcomment %}
+    {% unless rendered %}
+      {% assign pages = site.pages | where: "url", url %}
+      {% if pages.size > 0 %}
+        {% assign p = pages[0] %}
+        {% include archive-single.html page=p %}
+      {% endif %}
+    {% endunless %}
   {% endif %}
 {% endfor %}
