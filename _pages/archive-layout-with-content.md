@@ -1,177 +1,112 @@
 ---
-title: "Archive Layout with Content"
+
+title: "董凯志的个人档案"
 layout: archive
 permalink: /archive-layout-with-content/
----
+----------------------------------------
 
-A variety of common markup showing how the theme styles them.
+A collection of my background, research, projects and achievements in various markups.
 
-# Header one
+# 个人简介
 
-## Header two
+## 基本信息
 
-### Header three
+**姓名：** 董凯志
+**学校：** 中国海洋大学 计算机科学与技术专业
+**英语水平：** CET-6 (507分)
+**身份：** 中共党员
+**联系方式：** 183-6366-6985
 
-#### Header four
+### 教育背景
 
-##### Header five
+* 本科在读，2021 — 2025
+* 申请 2025 届硕士，方向：智能软件与计算机视觉
 
-###### Header six
+## 科研与论文
 
-## Blockquotes
+> “科研贵在坚持，应用在于落地。”
 
-Single line blockquote:
+| 论文名称                                                                                    | 年份   | 简要说明                                  |
+| --------------------------------------------------------------------------------------- | ---- | ------------------------------------- |
+| UWIS: Underwater Image Stitching Dataset and a Dynamic Pipeline …（第一作者, IEEE OCEANS）    | 2023 | 首个水下图像拼接数据集 UWIS，动态特征增强与缝隙优化          |
+| MSGFusion: Multimodal Scene Graph-Guided Infrared and Visible Image Fusion（第二作者, 投稿TMM） | 2024 | 融合高层语义场景图与低层特征，设计前景/背景重建+局部对比度损失      |
+| 针对蔬菜类商品补货及定价策略的分析预测模型                                                                   | 2023 | ARIMA+贪心+背包模型，最优补货与定价                 |
+| 基于混合整数规划的农作物最优种植策略研究（国赛省二等奖）                                                            | 2024 | PCA+MCMC+NSGA-II，动态替代互补多目标种植优化        |
+| 揭示网球比赛中“势头”现象的潜在模式（MCM美赛M奖）                                                             | 2024 | RSR+RF+灰色关联+GSRF预测转折点，构建P-value势头评价模型 |
+| 区分强弱项目的奥运奖牌榜预测问题研究（美赛优胜奖）                                                               | 2025 | ARIMAX+贝叶斯分层+DID+Apriori，奖牌榜时间序列与关联挖掘 |
 
-> Quotes are cool.
+## 竞赛与荣誉
 
-## Tables
+| 奖项名称              | 等次      | 年份   |
+| ----------------- | ------- | ---- |
+| 数学建模美赛 M 奖        | 国际赛 M 奖 | 2024 |
+| 全国大学生数学建模竞赛 国家二等奖 | 全国前1.8% | 2024 |
+| 全国大学生数学建模竞赛 省级二等奖 | 省前5%    | 2023 |
+| 国家奖学金             | 校级      | 2022 |
+| 国泰君安证券奖学金         | 校级      | 2023 |
 
-| Entry            | Item   |                                                              |
-| --------         | ------ | ------------------------------------------------------------ |
-| [John Doe](#)    | 2016   | Description of the item in the list                          |
-| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
-| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
-
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|-----------------------------|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=============================|
-| Foot1   | Foot2   | Foot3   |
-
-## Definition Lists
+## 技能清单
 
 Definition List Title
-:   Definition list division.
+:   **技能领域及简介**
 
-Startup
-:   A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
+**大数据分析**
+:   擅长数据预处理、机器学习建模与数据可视化，熟练使用 Python、Pandas、Scikit-learn。
 
-#dowork
-:   Coined by Rob Dyrdek and his personal body guard Christopher "Big Black" Boykins, "Do Work" works as a self motivator, to motivating your friends.
+**安卓应用开发**
+:   获得小米南京安卓部门 Offer，精通 Android Studio、Kotlin/Java。
 
-Do It Live
-:   I'll let Bill O'Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
+**计算机视觉**
+:   熟悉 OpenCV、深度学习框架（PyTorch/TensorFlow），有图像拼接与多模态融合经验。
 
-## Unordered Lists (Nested)
+**路径规划算法**
+:   掌握 A\*、RRT、余弦代价最小化启发式规划，已在 USV 项目中落地。
 
-  * List item one 
-      * List item one 
-          * List item one
-          * List item two
-          * List item three
-          * List item four
-      * List item two
-      * List item three
-      * List item four
-  * List item two
-  * List item three
-  * List item four
+# 时间线
 
-## Ordered List (Nested)
+## 主要事件
 
-  1. List item one 
-      1. List item one 
-          1. List item one
-          2. List item two
-          3. List item three
-          4. List item four
-      2. List item two
-      3. List item three
-      4. List item four
-  2. List item two
-  3. List item three
-  4. List item four
+1. **2022.10** 获得国家奖学金
+2. **2023.06** 数学建模省赛二等奖
+3. **2023.10** IEEE OCEANS 收录水下图像拼接论文
+4. **2024.03** MCM 美赛 M 奖
+5. **2025.01** 美赛优胜奖项目：奥运奖牌榜预测
 
-## Buttons
+## 社会任职
 
-Make any link standout more when applying the `.btn` class.
+* 班长、党支部组织委员
 
-## Notices
+  * 组织 20+ 班级活动，获“校优秀班级”
+  * 筹备党支部会议，获“校级先进团支部”
+* 学院创新创业部干部
+* 小浪花公益课堂志愿者
 
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
-{: .notice}
+## 工程项目
 
-## HTML Tags
+| 项目名称       | 技术栈                                | 说明                     |
+| ---------- | ---------------------------------- | ---------------------- |
+| 鱼塘养殖智能管控系统 | Spring Boot, YOLO, Transformer     | 鱼苗自动计数，后台库存管理，大模型问答助手  |
+| USV 运动路径规划 | 网格A\* + 余弦代价最小化                    | 格栅化地图，方向一致性惩罚，生成平滑避障路径 |
+| 教务系统与流媒体网站 | Spring MVC, MyBatis, Redis, Vue.js | 课程管理、成绩查询、直播流分发、高并发部署  |
 
-### Address Tag
+## 链接
+
+[GitHub](https://github.com/your-github) | [个人简历PDF](#){: .btn}
+
+## 温馨提示{: .notice}
+
+本页面将持续更新最新科研进展与工程成果，欢迎交流探讨！
+
+## 联系方式
 
 <address>
-  1 Infinite Loop<br /> Cupertino, CA 95014<br /> United States
+董凯志<br/>
+中国海洋大学 计科专业<br/>
+Email: dongkaizhi@example.com<br/>
+Phone: 183-6366-6985
 </address>
 
-### Anchor Tag (aka. Link)
-
-This is an example of a [link](http://github.com "GitHub").
-
-### Abbreviation Tag
-
-The abbreviation CSS stands for "Cascading Style Sheets".
-
-*[CSS]: Cascading Style Sheets
-
-### Cite Tag
-
-"Code is poetry." ---<cite>Automattic</cite>
-
-### Code Tag
-
-You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
-
-### Strike Tag
-
-This tag will let you <strike>strikeout text</strike>.
-
-### Emphasize Tag
-
-The emphasize tag should _italicize_ text.
-
-### Insert Tag
-
-This tag should denote <ins>inserted</ins> text.
-
-### Keyboard Tag
-
-This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` tag.
-
-### Preformatted Tag
-
-This tag styles large blocks of code.
-
-<pre>
-.post-title {
-  margin: 0 0 5px;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 1.2;
-  and here's a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows;
-}
-</pre>
-
-### Quote Tag
-
-<q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
-
-### Strong Tag
-
-This tag shows **bold text**.
-
-### Subscript Tag
-
-Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
-
-### Superscript Tag
-
-Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should lift the 2 up.
-
-### Variable Tag
-
-This allows you to denote <var>variables</var>.
-
-{% include base_path %}
+{% include base\_path %}
 {% for post in site.pages %}
 {% include archive-single.html %}
 {% endfor %}
