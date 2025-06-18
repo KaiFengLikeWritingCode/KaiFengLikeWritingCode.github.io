@@ -1,9 +1,7 @@
 ---
 title: "教务系统项目开发"
-excerpt: |
-  基于SpringBoot的教务系统项目开发  
-  <img src="{{ "./images/演示demo.gif" | relative_url }}" alt="动图演示" width="300" />
-
+excerpt: "基于SpringBoot3"
+teaser: "/images/your-animation.gif"
 collection: portfolio
 ---
 
