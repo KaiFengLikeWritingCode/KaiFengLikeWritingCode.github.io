@@ -1,5 +1,5 @@
 ---
-title: "Archive Layout with Content"
+title: "个人简介t"
 layout: archive
 permalink: /archive-layout-with-content/
 ---
