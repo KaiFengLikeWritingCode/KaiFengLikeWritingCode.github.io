@@ -13,40 +13,30 @@ author_profile: true
 
 {% for item in nav %}
   {% assign url = item.url %}
-  {% assign label = url | remove_first: "/" | remove: "/" %}
+  {% assign key = url | remove_first: "/" | remove: "/" %}
   <h2>{{ item.title }}</h2>
+  <ul>
+    {% if key == "year-archive" %}
+      {%- comment -%} 博客文章列表 {%- endcomment -%}
+      {% for post in site.posts %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+      {% endfor %}
 
-  {% comment %}
-  如果是“Blog Posts”页（假设它的 URL 是 /year-archive/）
-  {% endcomment %}
-  {% if label == "year-archive" %}
-    {% for post in site.posts %}
-      {% include archive-single.html %}
-    {% endfor %}
-
-  {% else %}
-    {% comment %}
-    检查它是不是一个 Collection，如果是，就渲染该集合下的所有文档
-    {% endcomment %}
-    {% assign rendered = false %}
-    {% for collection in site.collections %}
-      {% if collection.label == label and collection.output %}
-        {% assign rendered = true %}
-        {% for doc in collection.docs %}
-          {% include archive-single.html %}
+    {% else %}
+      {% assign coll = site.collections[key] %}
+      {% if coll and coll.output %}
+        {%- comment -%} 渲染集合文档 {%- endcomment -%}
+        {% for doc in coll.docs %}
+          <li><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></li>
         {% endfor %}
-      {% endif %}
-    {% endfor %}
 
-    {% comment %}
-    如果它不是 Collection，再尝试把它当普通页面渲染
-    {% endcomment %}
-    {% unless rendered %}
-      {% assign pages = site.pages | where: "url", url %}
-      {% if pages.size > 0 %}
-        {% assign p = pages[0] %}
-        {% include archive-single.html page=p %}
+      {% else %}
+        {%- comment -%} 渲染普通页面 {%- endcomment -%}
+        {% assign p = site.pages | where: "url", item.url | first %}
+        {% if p %}
+          <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+        {% endif %}
       {% endif %}
-    {% endunless %}
-  {% endif %}
+    {% endif %}
+  </ul>
 {% endfor %}
